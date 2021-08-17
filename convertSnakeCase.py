@@ -1,9 +1,7 @@
 # объявление функции
 def convert_to_python_case(text):
     newShit = list()
-    zag = list()
-    zagText = 'text'
-    lowLine = '_'
+
     for i in range(len(text)):
         if i == 0:
             newShit.append(text[i].lower())
